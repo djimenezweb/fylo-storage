@@ -1,0 +1,140 @@
+body {
+  text-align: center;
+  background-color: #111;
+  min-height: 100%;
+  font-family: sans-serif;
+}
+
+.exercise {
+  width: 847px;
+  height: 465px;
+  background-color: #0c122c;
+  display: inline-block;
+  position: relative;
+}
+
+.bg-desktop {
+  max-width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.caja-fylo {
+  background-color: #1d2c67;
+  width: 225px;
+  height: 135px;
+  border-radius: 8px 80px 8px 8px;
+  position: absolute;
+  left: 136px;
+  bottom: 180px;
+}
+
+.logo-fylo {
+  position: absolute;
+  width: 100px;
+  top: 28px;
+  left: 28px;
+}
+
+.icon {
+  background-color: #0c122c;
+  width: 20px;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.icon-document {
+  padding: 8px;
+  left: 28px;
+  bottom: 24px;
+}
+
+.icon-folder {
+  padding: 12px 8px;
+  left: 80px;
+  bottom: 24px;
+}
+
+.icon-upload {
+  padding: 14px 8px;
+  width: 16px;
+  left: 132px;
+  bottom: 24px;
+}
+
+.caja-storage {
+  background-color: #1d2c67;
+  width: 325px;
+  height: 100px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 180px;
+  left: 380px;
+}
+
+.texto-blanco {
+  color: white;
+  position: absolute;
+}
+
+.texto-storage {
+  font-size: 12px;
+  top: 12px;
+  left: 24px;
+}
+
+.texto-min {
+  font-size: 10px;
+  bottom: 8px;
+  left: 24px;
+}
+
+.texto-max {
+  font-size: 10px;
+  bottom: 8px;
+  right: 32px;
+}
+
+.barra-total {
+  background-color: #0c122c;
+  width: 250px;
+  height: 14px;
+  border-radius: 8px;
+  position: absolute;
+  top: 48px;
+  left: 24px;
+}
+
+.barra-progreso {
+  background-color: rgb(195, 99, 227);
+  width: 80%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.tooltip {
+  background-color: white;
+  width: 125px;
+  height: 50px;
+  border-radius: 8px;
+  position: absolute;
+  top: 160px;
+  right: 100px;
+}
+
+.storage-left {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  left: 10px;
+  top: 12px;
+}
+
+.gb-left {
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 12px;
+}
